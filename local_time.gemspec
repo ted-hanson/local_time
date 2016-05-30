@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rails"
   s.add_development_dependency "rails-dom-testing"
+  s.add_development_dependency "faye", "1.1.1"
   s.add_development_dependency "blade", "0.5.5"
   s.add_development_dependency "blade-sauce_labs_plugin", "0.5.1"
 end
