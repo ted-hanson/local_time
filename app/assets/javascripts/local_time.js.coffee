@@ -253,7 +253,7 @@ run = ->
   event.initEvent "time:elapse", true, true
   document.dispatchEvent event
 
-setInterval run, 60 * 1000
+setInterval run, 15 * 1000
 
 # Public API
 @LocalTime = {relativeDate, relativeTimeAgo, relativeTimeOrDate, relativeWeekday, run, strftime}
